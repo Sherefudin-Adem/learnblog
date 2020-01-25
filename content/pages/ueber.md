@@ -1,12 +1,12 @@
 +++
-title = "Über mich"
+title = "About Me"
 draft = false
-description = "Seite über mich"
 image = ""
+description = "About Me Site"
 +++
 ![](/img/default-author.png)
 
-## Vorname Nachname
+## Sherefudin Adem
 
 info@lernblog.ch
 
