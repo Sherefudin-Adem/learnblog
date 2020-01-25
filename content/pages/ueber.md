@@ -4,7 +4,7 @@ draft = false
 image = ""
 description = "About Me Site"
 +++
-![](/img/default-author.png)
+![](img/adem.jpg)
 
 ## Sherefudin Adem
 
