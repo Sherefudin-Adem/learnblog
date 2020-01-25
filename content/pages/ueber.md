@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 draft = false
-image = ""
+image = "img/logo.png"
 description = "About Me Site"
 +++
 ![](img/adem.jpg)
