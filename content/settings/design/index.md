@@ -1,8 +1,8 @@
 +++
 headless = true
 icon = ""
-logo = ""
-image = ""
+logo = "img/logo.png"
+image = "img/full-stack.jpg"
 color = ""
 +++
 
