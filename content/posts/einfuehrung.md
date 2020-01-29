@@ -328,14 +328,14 @@ Static methods are introduced in ES6. And it is pretty much easy to define it an
 
 class Example {
  static Callme() {
- console.log("i am Static method");
+ console.log("I am Static method");
  }
 }
 Example.Callme();
 
 ```
 ## Output:
-> i am Static method
+> I am Static method
 
 
 `Note` that I didn’t use the keyword `function` inside `Class`.
@@ -370,7 +370,7 @@ Example with `getters` and `setters`
 ```js
 
 class Person {
-constructor(name) {
+    constructor(name) {
       this.name = name;
     }
     get Name() {
