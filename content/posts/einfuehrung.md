@@ -163,13 +163,13 @@ for (let value of array) {
 
 ### Output:
 
-2
+> $ > 2
  
-3
+> $ > 3
  
-4
+> $ > 4
  
-1
+> $ > 1
 
 
 `Note` that the variable `value` outputs each element in the array not the index. Another Example
