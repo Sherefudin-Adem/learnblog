@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-draft = false
+draft = true
 image = "img/adem.jpg"
 description = "About Me Site"
 +++
