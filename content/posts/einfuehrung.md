@@ -23,7 +23,7 @@ Dies ist die Überschrift 2 (H2).
 
 ### Überschrift 3
 
-Die Überschrift 3 ist nicht mehr im Menu verfügbar. Wenn man sie verwenden will, muss man in den `Markdown`-Modus wechseln und dort eine Überschrift mit drei Hastags einleiten: `### Überschrift 3`
+Die Überschrift 3 ist nicht mehr im Menu verfügbar. Wenn man sie verwenden will, muss man in den `Markdown`-Modus wechseln und dort eine Überschrift mit drei Hashtags einleiten: `### Überschrift 3`
 
 #### Überschrift 4
 
@@ -91,7 +91,7 @@ Mit dem Code-Symbol `<>` können Wörter auf `diese Art` hervorgehoben werden. D
 
 Für längere solche Abschnitte verwendet man am besten das Code-Block-Symbol. Damit wird ein solcher Block erstellt:
 
-```
+```js
 const sun1 = "sun" + "il";
 const sun2 = "su" + "n" + "il";
 sun1 === sun2;
