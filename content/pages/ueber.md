@@ -4,10 +4,10 @@ draft = false
 image = "img/logo.png"
 description = "About Me Site"
 +++
-![](img/adem.jpg)
+![alt](img/adem.jpg)
 
 ## Sherefudin Adem
 
-info@lernblog.ch
+sherefudin.adem@powercoders.org
 
-Beschreibung, wer ich bin...
+Who am i 
