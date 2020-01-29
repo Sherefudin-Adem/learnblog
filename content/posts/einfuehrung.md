@@ -10,15 +10,15 @@ footnotes = ""
 +++
 Topics I’m gonna cover are:
 
-> Let and Const             
-> Arrow functions
-> Default parameters        
-> for of loop
-> Spread attributes         
-> Maps
-> Sets                      
-> Static methods
-> Getters and Setters
+> + Let and Const             
+> + Arrow functions
+> + Default parameters        
+> + for of loop
+> + Spread attributes         
+> + Maps
+> + Sets                      
+> + Static methods
+> + Getters and Setters
 
 # Let
 
