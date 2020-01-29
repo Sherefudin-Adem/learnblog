@@ -8,6 +8,6 @@ description = "About Me Site"
 
 ## Sherefudin Adem
 
-[sherefudin.adem@powercoders.org]
+<sherefudin.adem@powercoders.org>
 
 Who am i 
