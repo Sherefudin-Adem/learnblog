@@ -1,5 +1,5 @@
 +++
-title = "Instructions"
+title = "Javascript ES6"
 date = "2020-01-28"
 draft = false
 pinned = false
@@ -12,15 +12,15 @@ footnotes = "Ganz unten an der Seite können zum Beispiel Bildquellen angegeben 
 
 
 Topics I’m gonna cover are:
-* Let and Const
-* Arrow functions
-* Default parameters
-* for of loop
-* Spread attributes
-* Maps
-* Sets
-* Static methods
-* Getters and Setters
+- Let and Const
+- Arrow functions
+- Default parameters
+- for of loop
+- Spread attributes
+- Maps
+- Sets
+- Static methods
+- Getters and Setters
 
 # Let
 `let` is similar to `var` but `let` has scope. let is only accessible in the `block level` it is defined.
