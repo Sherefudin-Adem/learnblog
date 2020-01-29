@@ -108,7 +108,7 @@ I don’t think I need to give explanation for this. Its straightforward.
 
 # Default Parameters:
 
-If someone is familiar with other programming Lnaguage like `Ruby`, `Python` then default parameters isn’t new to him/her. `Default parameters` are parameters which are given by default while declaring a function. But it’s value can be changed when calling the function. Example
+If someone is familiar with other programming Language like `Ruby`, `Python` then default parameters isn’t new to him/her. `Default parameters` are parameters which are given by default while declaring a function. But it’s value can be changed when calling the function. Example
 
 ```js
 
