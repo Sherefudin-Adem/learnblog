@@ -163,10 +163,14 @@ for (let value of array) {
 
 ### Output:
 
-2 
-3 
-4 
+2
+ 
+3
+ 
+4
+ 
 1
+
 
 `Note` that the variable `value` outputs each element in the array not the index. Another Example
 
@@ -180,15 +184,24 @@ for (let char of string) {
 
 ### Output:
 
- S  
+ S
+  
  h
+
  e 
+
  r
+
  e
+
  f
+
  u
+
  d
+
  i
+
  n
 
 Yes. It works for string too.
