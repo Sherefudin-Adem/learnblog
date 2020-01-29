@@ -6,7 +6,7 @@ pinned = false
 tags = ["Javascript", "ES6"]
 image = "img/es6-Core.png"
 description = "I will cover some new features in ES6. It will be helpful for someone who is new to ES6 or learning front-end frameworks."
-footnotes = "Ganz unten an der Seite können zum Beispiel Bildquellen angegeben werden. Dieser Text ist abgetrennt durch eine Linie und etwas kleiner."
+footnotes = ""
 +++
 
 
