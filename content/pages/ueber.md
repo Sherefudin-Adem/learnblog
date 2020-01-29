@@ -4,7 +4,7 @@ draft = false
 image = "img/logo.png"
 description = "About Me Site"
 +++
-![alt](img/adem.jpg)
+![ ](img/adem.jpg)
 
 ## Sherefudin Adem
 
