@@ -184,14 +184,13 @@ for (let char of string) {
 
 ### Output:
 > $ > A
+
 > $ > d
+
 > $ > e
+
 > $ > m
   
- 
-
- 
-
 Yes. It works for string too.
 
 # Spread attributes/operator
