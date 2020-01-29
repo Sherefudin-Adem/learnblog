@@ -1,14 +1,14 @@
 +++
 title = "About Me"
-draft = true
+draft = false
 image = "img/adem.jpg"
 description = "About Me Site"
 +++
-![ ](/img/adem.jpg)
+![ ](img/adem.jpg)
 
 ## Sherefudin Adem
 
-[sherefudin.adem@powercoders.org](mailto:sherefudin.adem@powercoders.org)
+[E-mail](mailto:sherefudin.adem@powercoders.org)
 
 ##Frontend Developer
 
