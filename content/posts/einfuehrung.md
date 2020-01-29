@@ -12,15 +12,17 @@ footnotes = "Ganz unten an der Seite können zum Beispiel Bildquellen angegeben 
 
 
 Topics I’m gonna cover are:
-1. Let and Const
-2. Arrow functions
-- Default parameters
-- for of loop
-- Spread attributes
-- Maps
-- Sets
-- Static methods
-- Getters and Setters
+
++ Let and Const
++ Arrow functions
++ Default parameters
++ for of loop
++ Spread attributes
++ Maps
++ Sets
++ Static methods
++ Getters and Setters
+
 
 # Let
 `let` is similar to `var` but let has scope. let is only accessible in the `block level` it is defined.
