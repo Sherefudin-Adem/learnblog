@@ -176,33 +176,21 @@ for (let value of array) {
 
 ```js
 
-let string = "Sherefudin";
+let string = "Adem";
 for (let char of string) {
  console.log(char);
 }
 ```
 
 ### Output:
-
- S
+> $ > A
+> $ > d
+> $ > e
+> $ > m
   
- h
+ 
 
- e 
-
- r
-
- e
-
- f
-
- u
-
- d
-
- i
-
- n
+ 
 
 Yes. It works for string too.
 
@@ -240,7 +228,7 @@ SumElements(10, 20, 40, 60, 90);
 
 ```
 
-`Note:` we are not passing array here. Instead we are passing the elements as arguments.  In the above example, the spread attribute converts the list of elements (i.e) the parameters to an array. Another Example:
+`Note` we are not passing array here. Instead we are passing the elements as arguments.  In the above example, the spread attribute converts the list of elements (i.e) the parameters to an array. Another Example:
 
 ```js
 
