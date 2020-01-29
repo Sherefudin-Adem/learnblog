@@ -12,8 +12,8 @@ footnotes = "Ganz unten an der Seite können zum Beispiel Bildquellen angegeben 
 
 
 Topics I’m gonna cover are:
-- Let and Const
-- Arrow functions
+1. Let and Const
+2. Arrow functions
 - Default parameters
 - for of loop
 - Spread attributes
@@ -23,7 +23,7 @@ Topics I’m gonna cover are:
 - Getters and Setters
 
 # Let
-`let` is similar to `var` but `let` has scope. let is only accessible in the `block level` it is defined.
+`let` is similar to `var` but let has scope. let is only accessible in the `block level` it is defined.
 ```js
 
 if (true) {
