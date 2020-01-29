@@ -8,6 +8,10 @@ description = "About Me Site"
 
 ## Sherefudin Adem
 
-<sherefudin.adem@powercoders.org>
+[sherefudin.adem@powercoders.org](mailto:sherefudin.adem@powercoders.org)
 
-Who am i 
+##Frontend Developer
+
+Hello!. I enjoy meeting and working with a lot of people from different background.  Currently I am doing the Connecting programm Challenge which offered by PowerCoders and which can make me ready for a new upcoming `Career Day`
+
+Regards Sherefudin
