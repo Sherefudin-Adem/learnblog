@@ -98,7 +98,7 @@ The first part is just declaring a variable and assigning the `function (i.e) ()
 ```js
 
 let withParameters = (a, b) => {
- console.log(a + b); // 30
+ console.log(a + b); // > $ > 30
 }
 withParameters(10, 20);
 
@@ -200,12 +200,12 @@ Yes. It works for string too.
 ```js
 
 let SumElements = (arr) => {
- console.log(arr); // [10, 20, 40, 60, 90]
+ console.log(arr); // > $ > [10, 20, 40, 60, 90]
  let sum = 0;
  for (let element of arr) {
   sum += element;
  }
- console.log(sum); // 220. 
+ console.log(sum); // > $ > 220. 
 }
 SumElements([10, 20, 40, 60, 90]);
 
@@ -292,7 +292,9 @@ for (let key of map.keys()) {
 
 ### Output:
 
-> name id
+> $ > name
+ 
+> $ > id
 
 In the above example, `map.keys()` returns the keys of the map but it returns it in Iterator object. It means that it can’t be displayed as it is. It should be displayed only by iterating. Another example:
 
@@ -307,7 +309,7 @@ for (let element of map) {
 
 ### Output:
 
-> ['name', 'Adem'] \['id', 20]
+> $ > ['name', 'Adem'] \['id', 20]
 
 The above example is self explanatory. The `for..of loop` outputs the `key-value pair` in an array. We can optimize it a little bit.
 
@@ -322,7 +324,10 @@ for (let [key, value] of map) {
 
 ### Output:
 
-> name - Adem id - 20
+> $ > name - Adem
+ 
+> $ > id - 20
+
 
 # Sets
 
@@ -342,7 +347,8 @@ for (let element of sets) {
 
 ### Output:
 
-> a b
+> $ > a 
+> $ > b
 
 `Note` that no duplicate values are displayed. Unique values are displayed. And also `note` that `sets are iterable objects`. We have to iterate through the elements to display it. Other useful methods:
 
@@ -376,7 +382,7 @@ Example.Callme();
 
 ## Output:
 
-> I am static method
+> $ > I am static method
 
 `Note` that I didn’t use the keyword `function` inside `Class`. And I can call the function without creating any instance for the class.
 
@@ -406,9 +412,9 @@ console.log(person.getName());
 
 ## Output:
 
-> Adem 
-> Hussein 
-> James
+> $ > Adem 
+> $ > Hussein 
+> $ > James
 
 I think the above example is self-explanatory. We have two functions in `class People` that helps to set and get the name of the person. Example with `getters` and `setters`
 
