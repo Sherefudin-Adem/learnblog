@@ -2,7 +2,7 @@
 title = "Javascript ES6"
 date = "2020-01-28"
 draft = false
-pinned = true
+pinned = false
 tags = [""]
 image = "img/JsES6.png"
 description = "I will cover some new features in ES6. It will be helpful for someone who is new to ES6 or learning front-end frameworks."
