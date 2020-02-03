@@ -3,7 +3,7 @@ title = "Javascript Fetch API "
 date = "2020-02-03"
 draft = false
 pinned = false
-tags = ["[Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/)"]
+tags = ["Fetch API"]
 image = "img/fetchAPI.png"
 description = "The Fetch API is a promise-based JavaScript API for making asynchronous HTTP requests in the browser similar to XMLHttpRequest.\n\nFetch API is pretty much standardized now and is supported by all modern browsers except IE. If you need to support all browsers including IE, just add a polyfill released by GitHub to your project."
 +++
