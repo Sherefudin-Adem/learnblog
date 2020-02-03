@@ -93,7 +93,7 @@ Since `fetch()` method returns a promise, error handling is easy. We can use the
 
 Fortunately, you can use the ok property of response object to check whether the request was successful or not:
 ```js
-fetch('https://reqres.in/api/users/22') // 404 Error
+fetch('https://put here some url/api/users/22') // 404 Error
     .then(response => {
         if (response.ok) {
             return response.json();
@@ -303,10 +303,10 @@ It is a huge improvement over XMLHttpRequest with a simple,elegant and easy-to-u
 
 ```js
 function getMoviesFromApiAsync() {
-  return fetch('https://facebook.github.io/react-native/movies.json')
+  return fetch('https://some url here please /movies.json')
     .then((response) => response.json())
-    .then((responseJson) => {
-      return responseJson.body;
+    .then((Json) => {
+      return Json.body;
     })
     .catch((error) => {
       console.error(error);
