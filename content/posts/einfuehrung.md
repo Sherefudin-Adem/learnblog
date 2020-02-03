@@ -5,7 +5,7 @@ draft = false
 pinned = false
 tags = [""]
 image = "img/JsES6.png"
-description = "JsES6.png\n\nI will cover some new features in ES6. It will be helpful for someone who is new to ES6 or learning front-end frameworks."
+description = "![ ](img/JsES6.png)\n\nI will cover some new features in ES6. It will be helpful for someone who is new to ES6 or learning front-end frameworks."
 footnotes = ""
 +++
 Topics I’m gonna cover are:
