@@ -4,7 +4,7 @@ date = "2020-01-28"
 draft = false
 pinned = false
 tags = ["ES6"]
-image = "./img/JsES6.png"
+image = "../img/JsES6.png"
 description = "I will cover some new features in ES6. It will be helpful for someone who is new to ES6 or learning front-end frameworks."
 footnotes = ""
 +++
