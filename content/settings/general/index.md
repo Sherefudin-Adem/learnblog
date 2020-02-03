@@ -1,7 +1,7 @@
 +++
 headless = true
 title = "CODIFY"
-description = "My Blog"
+description = "My LearnBlog"
 footerLeft = "[Sherefudin Adem](https://www.github.com/Sherefudin-Adem) "
 footerRight = ""
 +++
