@@ -56,7 +56,7 @@ class Crocodile extends Animal {
 ```
 The new class syntax is just syntactical sugar over the prototype-based model and behind the scenes prototypes are still being used.
 
-The bottom line is that classes are functions, and functions are objects in JavaScript, extendable using its prototypal inheritance nature. That sounds confusing, but it gives the language a lot of flexibility (and pains perhaps).
+The bottom line is that classes are functions, and functions are objects in JavaScript, extendable using its prototypal inheritance nature. That sounds confusing, but it gives the language a lot of flexibility.
 
 ## Object Composition
 A common composition pattern in JavaScript is using object composition. It combines the power of objects and functional programming. For the example above, imagine an animal has the ability to eat and fly. In hierarchy, that could mean to have an Animal and FlyingAnimal. And if we add more and more animals, that hierarchy could become a bit messy, since abilities are shared between animals.
@@ -77,9 +77,9 @@ const bob =  Crocodile("bob");
 
 ```
 
-We’re using an internal constiable self that would represent the prototype using classes or prototypes. This would behave exactly as the example above.
+We’re using an internal variable *self* that would represent the prototype using classes or prototypes. This would behave exactly as the example above.
 
-Then, you can define behaviors as functions receiving the self. That makes them easily composable since they’re just functions. Then we’ll use any object merging utility, such as Object.assign or the spread operator ({...a, ...b}) in the factory function in order to create the final object:
+Then, you can define behaviors as functions receiving the self. That makes them easily composable since they’re just functions. Then we’ll use any object merging utility, such as Object.assign or the spread operator *({...a, ...b})* in the factory function in order to create the final object:
 
 ```js
 
