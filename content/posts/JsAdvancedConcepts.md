@@ -187,7 +187,7 @@ With explicit binding we can choose what the value of `this` will be. So let's h
 
 Here we have the same nested object:
 ```js
-var person = {
+const person = {
   firstName: "Adem",
   sayHi: function(){
     return "Hi" + this.firstName;
@@ -217,8 +217,8 @@ The `call()` method takes an infinite number of parameters. The first one is wha
 `apply()` method is very similar to call(). The only difference is that it takes only two arguments - thisArg and an array of arguments that we want to pass to a method. Let's have a look at an example:
 
 ```js
-var profile = {
-  firstName: "profile",
+const profile = {
+  firstName: "John",
   sayHi: function() {
     return "Hi " + this.firstName
   },
@@ -226,16 +226,16 @@ var profile = {
     return this.firstName + " just calculated " + (a + b + c + d);
   }
 }
-var Adem = {
+const Adem = {
   firstName: "Adem"
 }
 
-profile.sayHi() // Hi profile
+profile.sayHi() // Hi John
 profile.sayHi.apply(Adem) // Hi Adem
 
 // let's add the numbers
 
-profile.addNumbers(1, 2, 3, 4) // profile just calculated 10
+profile.addNumbers(1, 2, 3, 4) // John just calculated 10
 profile.addNumbers.call(Adem, 1, 2, 3, 4) // Adem just calculated 10
 profile.addNumbers.apply(Adem, [1, 2, 3, 4]) // Adem just calculated 10
 ```
@@ -262,7 +262,7 @@ profile.sayHi() // Hi undefined (1 second later)
 ```
 So it might come as a suprise that the result of `profile.sayHi()` would be Hi undefined. This is because setTimeout is set on the window object even though it is inside a declared object. To correct this situation we can explicitly assign `this` to the declared object with `bind()` like so:
 ```js
-var profile = {
+const profile = {
   firstName = "Ahmed",
   sayHi: function() {
     setTimeout(function() {
