@@ -13,7 +13,7 @@ footnotes = ""
 
 # JS Advanced Concepts
 
-These are points on advanced JS topics such as "this", prototype, closures and etc.
+These are some points on advanced JS topics such as "this", prototype, closures and etc.
 
 ## Keyword `this` and Execution Context
 
