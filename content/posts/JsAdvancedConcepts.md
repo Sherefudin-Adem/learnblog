@@ -39,6 +39,7 @@ These are some points on advanced JS topics such as `this`, prototype, closures 
 When `this` is not inside of a declared object it will point to the window object. If it is declared inside of a function it will also point to the window object. 
 
 ```js 
+
 console.log(this) // window
 
 function whatIsThis() {
