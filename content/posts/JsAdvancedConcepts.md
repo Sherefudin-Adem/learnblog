@@ -1,6 +1,6 @@
 +++
 title = "JS Advanced Concepts"
-date = "2020-03-30"
+date = "2020-03-31"
 draft = false
 pinned = false
 tags = ["JS Advanced Concepts"]
