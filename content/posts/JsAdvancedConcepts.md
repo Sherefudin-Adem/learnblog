@@ -5,7 +5,7 @@ draft = false
 pinned = false
 tags = ["JS Advanced Concepts"]
 image = "../img/JSAdvancedConcepts.png"
-description = "I will explain about `this` and Execution Context,
+description = "I will explain about 'this' and Execution Context,
 prototype chain, closures and constructor Functions in JavaScript "
 footnotes = ""
 +++
