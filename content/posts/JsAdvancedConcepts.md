@@ -4,16 +4,16 @@ date = "2020-03-31"
 draft = false
 pinned = false
 tags = ["JS Advanced Concepts"]
-image = "../img/prototypeChain.png"
+image = "../img/JSAdvancedConcepts.png"
 description = "I will explain about `this` and Execution Context,
 prototype chain, closures and constructor Functions in JavaScript "
 footnotes = ""
 +++
 
 
-
 # JS Advanced Concepts
-These are my notes on advanced JS topics such as "this", prototype, closures and etc.
+
+These are points on advanced JS topics such as "this", prototype, closures and etc.
 
 ## Keyword `this` and Execution Context
 
