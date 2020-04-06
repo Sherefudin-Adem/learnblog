@@ -1,6 +1,6 @@
 +++
 title = "JavaScript Loops"
-date = "2020-03-30"
+date = "2020-04-06"
 draft = false
 pinned = false
 tags = ["All possible way of iterating through Loops"]
